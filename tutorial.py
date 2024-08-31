@@ -1,25 +1,26 @@
 # In the name of Allah
 
-name = "Yuan"
-print("u" in name[1])
+from enum import Enum
+
+number = 2 + 3j
+number = complex(2, 3)
+print(number)
+
+class State(Enum):
+    INACTIVE = 0
+    ACTIVE = 1
+print(State.INACTIVE.value)
 
 """ 
-String Methods:
-    upper()
-    lower()
-    islower()
-    isupper()
-    title()
-    startswith()
-    endswith()
-    replace()
-    split()
-    strip()
-    join()
-    find()
-    isalpha()
-    isalnum()
-    isdecimal()
+type()
+any()
+all()
 
-len()
+Complex Data Type:  complex()
+
+abs()
+round( , decimal number to round to)
+
+Constants: Enums
+list()
 """
