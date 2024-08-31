@@ -1,46 +1,25 @@
 # In the name of Allah
 
 name = "Yuan"
-print(isinstance(name, int))
-
-def is_integer (name):
-    return True if isinstance(name, int) else False
-print(is_integer(name))
+print("u" in name[1])
 
 """ 
-Data Types: isinstance( , )
-    str
-    int         
-    float      
-    complex
-    bool
-    list
-    tuple
-    range
-    dict
-    set
+String Methods:
+    upper()
+    lower()
+    islower()
+    isupper()
+    title()
+    startswith()
+    endswith()
+    replace()
+    split()
+    strip()
+    join()
+    find()
+    isalpha()
+    isalnum()
+    isdecimal()
 
-Casting:
-    int(str)
-    float(int)
-
-Operators:
-    - **
-    - //      Floor Division
-    - <=
-    - >=
-    - and
-    - or    return the other that's not flase
-    - not
-    - Bitwise Operators:
-        &   binary AND
-        |   binary OR
-        ^   binary XOR
-        ~   binary NOT
-        <<  shift left
-        >>  shift right
-    
-    - is
-    - in
-    - Ternary Operator
+len()
 """
